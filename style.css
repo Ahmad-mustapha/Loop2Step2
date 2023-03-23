@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: #2f2f2f;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    max-width: 26rem;
+    min-height: 90vh;
+    margin: 1.5rem auto;
+    background-color: #fdec51;
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 3rem 0;
+}
+.fa-xmark{
+    color: rgba(0, 0, 0, .7);
+}
+.fa-xmark:hover{
+    color: #000;
+    cursor: pointer;
+}
+img{
+    width: 3.3rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -6rem;
+}
+.form{
+    width: 26rem;
+    min-height: 21rem;
+    background-color: white;
+    position: relative;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 4rem 2.5rem 1rem 2rem;
+    line-height: 1.4rem;
+    box-shadow: 4px 4px 4px 4px 7px #555;
+}
+label{
+    font-size: .55rem;
+    color: #999;
+}
+.first_last{
+    display: flex;
+    
+}
+input, textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b6b6bb;
+}
+textarea{
+    max-width: 22rem;
+    min-height: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #444;
+    font-size: .9rem;
+}
+a:hover{
+    color: #000;
+}
+.footer{
+    display: flex;
+    position: relative;
+    top: 1rem;
+    gap: 1rem;
+    margin-left: 14rem;
+    padding: 0 3.5rem 3rem;
+}
+::placeholder{
+    font-size: .7rem;
+}
